@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <p>Fill your details in the below form to reserve your seat in the course</p>
+    <form action="">
+        <fieldset>
+            <legend><h2>Personal details</h2></legend>
+            <table>
+            <tr>
+                <td><label for="">First Name</label></td>
+                <td><input type="text" required placeholder="Enter Your Name" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Surname</label></td>
+                <td><input type="text" required placeholder="Enter Your Surname" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Mobile Number</label></td>
+                <td><input type="tel" required placeholder="Enter Your Mobile Number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" required placeholder="Enter Your Email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" required placeholder="Min 7 characters" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Confirm Password</label></td>
+                <td><input type="password" required placeholder="Min 7 characters" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">DOB</label></td>
+                <td><input type="date" required name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td><input type="radio"  name="Gender" value="Male"><label for="">Male</label>
+                <input type="radio" name="Gender" value="Female"><label for="">Female</label>
+                <input type="radio" name="Gender" value="Others"><label for="">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">AGE</label></td>
+                <td><input type="number" min="18" max="35"></td>
+            </tr>
+            <tr>
+                <td><label for="">Select Country</label></td>
+                <td>
+                    <select required name="" id="">
+                        <option value="" disabled > Select Country</option>
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="CHINA">CHINA</option>
+                    <option value="RUSSIA">RUSSIA</option>
+                    
+                </select>
+            </td>
+            </tr> 
+            <tr>
+                <td><label for="">Upload Picture</label></td>
+                <td><input type="file" required name="" id=""></td>
+            </tr>
+        </table>
+        <button type="reset">Reset</button>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>Course Details</h2>
+            </legend>
+        <table>
+            <tr>
+                <td><label for="">Select Course</label></td>
+                <td><select required name="" id="">
+                    <option value="" disabled>Select Course</option>
+                    <option value="java">JAVA Full Stack</option>
+                    <option value="pyhton">Python Full Stack</option>
+                    <option value="data">DATA Analytic </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Delivery Mode</label></td>
+                <td>
+                    <input type="radio" name="Delivery Mode" value="ONLINE"><label for="">ONLINE</label>
+                    <input type="radio" name="Delivery Mode" value="OFFLINE"><label for="">OFFLINE</label>
+                </td>
+
+                </tr>
+            <tr>
+                <td><label for="">INSTITYUE NAME</label></td>
+                <td><input required type="text" name="" value="TAP ACADEMY"></td>
+            </tr>
+            <tr>
+                <td><label for="">Choose your present Coding knowledge level:</label></td>
+                <td><input required type="range" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Comments</label></td>
+                <td><textarea required rows="5" name="" id=""></textarea></td>
+            </tr>
+        </table>
+        </fieldset>
+        <table>
+        <tr>
+        <td>
+            <button type="submit">Submit</button>
+        </td>
+    </tr>
+    </table>
+
+    </form>
+    
+</body>
+</html>
